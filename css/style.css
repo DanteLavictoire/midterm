@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family="Vesper+Libre":wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
 body{
-  color: #1a1a1a;
-  line-height: 1.5;
+font-family:"VesperLibre";
+color: #1a1a1a;
+line-height: 1.5; 
 margin: 0%
 }
 
 header, footer{
-  background-color: #000;
-  color: #fff;
-  text-align: center;
+background-color: #000;
+color: #fff;
+text-align: center;
 }
 
 img{
-  width: 100%;
+width: 100%;
 }
 
-#header{
-  width: 100px;
-  padding-top: 8px;
+#logo{
+width: 100px;
+padding-top: 8px;
 }
 
 main{
@@ -34,19 +38,23 @@ h1{
   display: inline-block;
   text-transform: uppercase;
   font-size: .85rem;
-border-bottom: #ff3530;
-  border-bottom: 2px;
+  border-bottom: 2px, #ff3530;
 }
 
 figcaption,.news,sub-title,time,.author,h2{
-font-family: open sans;
+font-family: "OpenSans";
+}
+
+.author,time{
+font-size: .85rem;
+margin-bottom: 0;
 }
 
 figure{
   margin: 1.25em 0;
 }
 
-.caption{
+figcaption{
   font-size: .75rem;
   text-align: center;
   color: #757575;
@@ -67,3 +75,4 @@ a:hover{
   text-decoration: none;
   color: #ff3530;
 }
+
